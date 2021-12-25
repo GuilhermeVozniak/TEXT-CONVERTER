@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXT CONVERTER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Conversor de Texto</h1>
+    <div class="contanier">
+        <div class="container_input">
+            <input type="text" name="title" id="title" placeholder="title">
+            <textarea id="text" name="text" rows="20" cols="66" placeholder="text"></textarea>
+        </div>
+
+        <div class="title">  
+            <div class="container_botes">
+                <h2>TITLE:</h2>
+                <input type="color" name="colorT" id="colorT" class="colorT">
+                <input type="button" value="Uppercase" id="upperT" onclick="upper(1)">
+                <input type="button" value="Lowercase" id="lowerT" onclick="lower(1)">
+                <input type="button" value="Captalize" id="CaptalizeT" onclick="captalize(1)">
+            </div>
+        </div>
+
+        <div class="text"> 
+            <div class="container_botes">
+                <h2>TEXT:</h2>
+                <input type="color" name="colorTT" id="colorTT" class="colorT">
+                <input type="button" value="Uppercase" id="upperTT" onclick="upper(2)">
+                <input type="button" value="Lowercase" id="lowerTT" onclick="lower(2)">
+                <input type="button" value="Captalize" id="CaptalizeTT" onclick="captalize(2)">
+            </div>
+        </div>
+
+        <div class="container_digitado">
+            <h1 id="title_typed">Title</h1>
+            <p id="texto_typed">text</p>
+        </div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

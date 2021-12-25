@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+body{
+    background-color: cadetblue;
+}
+h1{
+    text-align: center;
+    margin-top: 3%;
+}
+.contanier{
+    width: 50%;
+    margin: auto;
+    padding: 1%;
+    transform: translateY(15%);
+    background-color: cornsilk;
+    border-radius: 1em;
+}
+.container_digitado{
+    padding: 1%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    border-radius: 1em 1em 0em 0em;
+}
+.container_digitado > p{
+    word-wrap: break-word;/*Faz quebrar a linha no local correto*/
+    min-height: 10vw;
+    text-align: justify;
+}
+
+.container_input{
+    padding: 1%;
+    width: 100%;
+    margin: auto;
+}
+.container_input > input{
+    display: block;
+    margin-left: 50%;
+    margin-bottom: 2%;
+    transform: translate(-50%);
+    border: 2px solid black;
+}
+.container_input > textarea{
+    display: block;
+    margin-left: 50%;
+    margin-bottom: 1%;
+    transform: translate(-50%);
+}
+
+
+.title{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+    
+.text{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+    .colorT{
+            display: block;
+            margin: auto;
+            margin-bottom: 3%;
+    }
